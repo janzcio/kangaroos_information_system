@@ -22,21 +22,26 @@ cp .env.example .env
 ```
 Create a `database` file the same database name value in your `.env` file for your connection 
 
-run this command for your app key
+Run this command for your app key
 ```bash
 php artisan key:generate
 ```
 
-run migration
+Run migration
 ```bash
 php artisan migrate
 ```
 
-run seeder. 
-Default credential `email: admin@admin.com password: password`
+Run seeder. Default credential `email: admin@admin.com password: password`
 ```bash
 php artisan db:seed
 ```
+
+Run this for storage link
+```bash
+php artisan storage:link
+```
+
 ### Run the project
 ```bash
 php artisan serve
