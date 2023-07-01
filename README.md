@@ -29,7 +29,7 @@ php artisan key:generate
 
 run migration
 ```bash
-php artisan key:generate
+php artisan migrate
 ```
 
 run seeder. 
